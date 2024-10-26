@@ -1,0 +1,75 @@
+ /* Base styling */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation styling */
+.nav-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-area ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+.nav-area ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Section styling */
+.section {
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+/* Specific sections */
+.intro-section h1 {
+    margin-top: 0;
+}
+
+.project-item {
+    font-weight: bold;
+    border: solid 2px #191919;
+    margin-bottom: 2px;
+    padding: 5px 0;
+}
+
+/* Review styling with border radius */
+.reviews-section {
+    border-radius: 10px;
+}
+
+.review-item {
+    border-top: 1px dashed #ccc;
+    padding: 10px 0;
+}
+
+.review-item:first-of-type {
+    border-top: none;
+}
+
+.section-two{
+    display: flex;
+}
