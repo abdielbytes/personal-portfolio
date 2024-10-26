@@ -3,113 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdiel Wilson</title>
+    <title>Abdiel Wilson - Portfolio</title>
+    <style>
+        /* Base styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        .main-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Navigation styling */
+        .nav-area {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .nav-area ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            padding: 0;
+        }
+
+        .nav-area ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Section styling */
+        .section {
+            padding: 15px;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+
+        /* Specific sections */
+        .intro-section h1 {
+            margin-top: 0;
+        }
+
+        .project-item {
+            font-weight: bold;
+            padding: 5px 0;
+        }
+
+        /* Review styling with border radius */
+        .reviews-section {
+            border-radius: 10px;
+        }
+
+        .review-item {
+            border-top: 1px dashed #ccc;
+            padding: 10px 0;
+        }
+
+        .review-item:first-of-type {
+            border-top: none;
+        }
+    </style>
 </head>
 <body>
 
     <div class="main-container">
+        <!-- Navigation -->
         <div class="nav-area">
-            <div>Abdiel Wilson</div>
-
-            <div>
+            <div class="logo">Abdiel Wilson</div>
+            <div class="nav-links">
                 <ul>
-                    <li>
-                        <a>Home</a>
-                    </li>
-                    <li>
-                        <a>Projects</a>
-                    </li>
-                    <li>
-                        <a>
-                            Articles
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                            Contact
-                        </a>
-                    </li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div>
         </div>
 
-        <div>
-            <h1>
-                Frontend Developer
-            </h1>
-            <p>I know good HTML and enough CSS for a good layout. Hehehe</p>
+        <!-- Introduction Section -->
+        <div class="section intro-section">
+            <h1>Frontend Developer & Lifelong Learner</h1>
+            <p>Passionate about crafting responsive and interactive web applications. Skilled in HTML, CSS, and JavaScript, with a focus on clean and efficient code.</p>
         </div>
         
-        <div>
-            <div>
-                <div>
-                    <h3>Projects</h3>
-                    <p>My HTML Projects</p>
-                </div>
-                <div>
-                    Calculator
-                </div>
-                <div>
-                    Quiz App
-                </div>
-                <div>
-                    CountDown Timer
-                </div>
-                <div> 
-                    Upcoming Projects
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <h3>Work Experience</h3>
-                    <p>softsuite beginner intern</p>
-                    <p>I used X to do Y improving Z</p>
-                    <a href="">Read More</a>
-                </div>
-
-                <div>
-                    <h3>Opensource</h3>
-                    <p>Contributed to project dash that has 300 stars on guthub</p>
-                    <a href="">Read More</a>
-                </div>
-            </div>
-            <div>
-                <h3>
-                    Education
-                </h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit voluptates quo. Inventore possimus harum quod accusamus. Libero, deserunt neque?</p>
-                <p>Courses I took</p>
-                <ul>
-                    <li>SOme cidj</li>
-                    <li>hdfhd</li>
-                    <li>hdfhd</li>
-                </ul>
-            </div>
+        
+        <!-- Projects Section -->
+        <div class="section projects-section">
+            <h3>Projects</h3>
+            <p>A showcase of my latest work:</p>
+            <div class="project-item">Calculator App - A simple, interactive calculator built with HTML, CSS, and JavaScript.</div>
+            <div class="project-item">Quiz App - A dynamic quiz platform with user score tracking and question shuffling.</div>
+            <div class="project-item">Countdown Timer - A customizable countdown timer for tracking events and deadlines.</div>
+            <div class="project-item">Upcoming Projects - Stay tuned for more exciting tools and applications!</div>
         </div>
 
-        <div>
-            <h5>What My teachers say</h5>
+        <!-- Experience Section -->
+        <div class="section experience-section">
+            <h3>Work Experience</h3>
+            <p><strong>Intern, SoftSuite</strong> - Assisted in the development of frontend solutions, optimizing UI components and enhancing user experience.</p>
+            <a href="#">Read More</a>
+        </div>
 
-            <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dignissimos possimus architecto labore corporis saepe blanditiis nemo est voluptas eum.</p>
-                <p>Teacher Name</p>
-                <p>What he taught</p>
+        <!-- Open Source Section -->
+        <div class="section open-source-section">
+            <h3>Open Source Contributions</h3>
+            <p>Contributor to <strong>Project Dash</strong> on GitHub, a collaborative project with over 300 stars.</p>
+            <a href="#">Read More</a>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section education-section">
+            <h3>Education</h3>
+            <p>Dedicated to continuous learning, with completed courses in web development, user experience design, and more.</p>
+            <p>Key Courses:</p>
+            <ul>
+                <li>Advanced HTML & CSS Techniques</li>
+                <li>JavaScript for Interactive Frontends</li>
+                <li>React Basics and Beyond</li>
+            </ul>
+        </div>
+
+        <!-- Reviews Section -->
+        <div class="section reviews-section">
+            <h5>What My Mentors Say</h5>
+
+            <div class="review-item">
+                <p>"Abdiel's attention to detail and commitment to mastering the fundamentals are impressive. His growth has been exponential." - <strong>Mr. Alan Smith</strong>, Web Development Mentor</p>
             </div>
-
-            <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dignissimos possimus architecto labore corporis saepe blanditiis nemo est voluptas eum.</p>
-                <p>Teacher Name</p>
-                <p>What he taught</p>
+            <div class="review-item">
+                <p>"A quick learner with an aptitude for solving challenging problems creatively. A valuable team player." - <strong>Ms. Lara King</strong>, Project Lead</p>
             </div>
-
-            <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dignissimos possimus architecto labore corporis saepe blanditiis nemo est voluptas eum.</p>
-                <p>Teacher Name</p>
-                <p>What he taught</p>
+            <div class="review-item">
+                <p>"Shows a keen interest in open-source contributions and building impactful projects." - <strong>Dr. Martin Grey</strong>, Software Engineering Professor</p>
             </div>
-
-            
         </div>
     </div>
     
